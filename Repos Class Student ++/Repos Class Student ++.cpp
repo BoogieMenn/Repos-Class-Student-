@@ -69,7 +69,7 @@ int main() {
 
     cout << "Информация о студенте 2:" << endl;
     student2.printInfo();
-    cout << "Оценка: " << student2.getGrade() << endl;
+    cout << "Оценка: " << student2.getGrade() << endl << endl;
 
     cout << "Информация о студенте 3:" << endl;
     student3.printInfo();
