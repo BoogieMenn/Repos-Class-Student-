@@ -59,7 +59,7 @@ public:
 int main() {
     // Создание объектов класса "Студент"
     Student student1("Сергей Иванов", 18, 7.5, "Информатика", "ИТ-1");
-    Student student2("Мария Харламова", 19, 9.2, "Экономика", "ЭК-2");
+    Student student2("Ирина Харламова", 19, 9.2, "Экономика", "ЭК-2");
     Student student3("Григорий Божков", 21, 8.3, "Геймдизайн", "ОБП-30239");
 
     // Вывод информации о студентах
@@ -70,6 +70,10 @@ int main() {
     cout << "Информация о студенте 2:" << endl;
     student2.printInfo();
     cout << "Оценка: " << student2.getGrade() << endl;
+
+    cout << "Информация о студенте 3:" << endl;
+    student3.printInfo();
+    cout << "Оценка: " << student3.getGrade() << endl;
 
     return 0;
 }
